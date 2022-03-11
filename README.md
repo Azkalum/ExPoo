@@ -31,25 +31,25 @@ Seguindo o diagrama UML, implemente as classes e exiba no console conforme a ima
 #Exercício 4/5/6
 Instancie o objeto e a Lista<Pessoa>, adicione os dados conforme a tabela abaixo e por fim imprima o nome da pessoa mais velha.
 
-#Nome      #Idade
--João      -15
--Leandro   -21
--Paulo     -17
--Jessica   -18
+ #Nome      #Idade
+- João      -15
+- Leandro   -21
+- Paulo     -17
+- Jessica   -18
 
 #Aproveitando a questão anterior (4) - Exclua da Lista as pessoas com idade inferior a 18 anos. E exiba a quantidade da lista antes e depois da exclusão (Não reescreva o código do item 01).
   
 #Aproveitando - o seu código já escrito na questão (4) e na questão (5) - Consulte se o objeto Jessica existe na Lista e exiba a sua idade.
 
-#Nome      #Idade
--Leandro   -21
--Jessica   -18  
+  #Nome     #Idade
+- Leandro   -21
+- Jessica   -18  
 
 #Exercício 7
 Considerando os conceitos de Orientação a Objetos, crie uma classe Pai de nome Funcionário com os seguintes atributos(nome, idade e salário) e mais três classes Filhas (Gerente, Supervisor e Vendedor). Na Classe Funcionário deve existir um método de nome bonificação que retorna o salário, nas classes Filhas, deve existir o mesmo método bonificação por[em com as seguintes regras:
   
--Para Gerente, o método bonificação deve retornar o salário + 10000.00;
--Para Supervisor, o método bonificação deve retornar o salário + 5000.00;
--Para Vendedor, o método bonificação deve retornar o salário + 3000.00;
+- Para Gerente, o método bonificação deve retornar o salário + 10000.00;
+- Para Supervisor, o método bonificação deve retornar o salário + 5000.00;
+- Para Vendedor, o método bonificação deve retornar o salário + 3000.00;
   
 Por fim, criar uma classe principal que instancie objetos de Gerente, Supervisor e Vendedor e adicione no mínimo um valor para cada atributo e imprima cada funcionário (Gerente, Supervisor e Vendedor) com suas devidas bonificações
