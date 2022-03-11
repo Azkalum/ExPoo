@@ -1,7 +1,7 @@
 # ExPoo
 Alguns exercícios em POO (Java)
 
-#Exercício 1
+# Exercício 1
 Seguindo o diagrama UML a seguir, implemente a classe Veiculo e seus métodos. Após a implementação, testar cada um dos métodos via console.
 
 acelerar(): este método acrescenta um valor de 20 no atributo velocidade.
@@ -11,7 +11,7 @@ acelerar(): este método acrescenta um valor de 20 no atributo velocidade.
 - ligar(): Verifica se o veículo já se encontra ligado, caso não, liga o carro.
 - desligar(): Verifica se o veículo já se encontra desligado, caso não, desliga o carro. Não permitir que desligue o veículo com (velocidade > 0).
 
-#Exercício 2
+# Exercício 2
 Seguindo o diagrama UML a seguir, implemente as classes, interfaces e as saídas do programa. Após a implementação, testar cada um dos métodos via console.
 
 calculaImposto( ): método para calcular imposto sobre um produto com a seguinte regra:
@@ -21,31 +21,31 @@ calculaImposto( ): método para calcular imposto sobre um produto com a seguinte
 - listaVideoGames ( ): lista todos os vídeo games que uma loja tem, caso a lista de vídeo games seja vazia, mostrar no console "A loja não tem video-games no seu estoque."
 - calculaPatrimonio( ): Soma os preços de todos produtos da loja e retorna este valor como double.
 
-#Exercício 3
+# Exercício 3
 Seguindo o diagrama UML, implemente as classes e exiba no console conforme a imagem a seguir:
 
 - Usando o conceito de polimorfismo, implemente o método lvlUp(), de forma que o Mago ao subir de nível possua um aumento maior nos atributos Mana e Inteligência e o Guerreiro possua um aumento maior nos atributos Vida e Força.
 - Implemente o método attack() de forma que siga a seguinte regra: Mago 🧹 : ( Inteligência * Level ) + numeroRandomico( 0 até 300 ). Guerreiro ⚔: ( Força * Level ) + numeroRandomico( 0 até 300 ).
 - Exiba a quantidade de Personagens criados, utilize atributo static para implementar a solução.
 
-#Exercício 4/5/6
+# Exercício 4/5/6
 Instancie o objeto e a Lista<Pessoa>, adicione os dados conforme a tabela abaixo e por fim imprima o nome da pessoa mais velha.
 
- #Nome      #Idade
-- João      -15
-- Leandro   -21
-- Paulo     -17
-- Jessica   -18
+# Nome      # Idade
+- João       - 15
+- Leandro    - 21
+- Paulo      - 17
+- Jessica    - 18
 
-#Aproveitando a questão anterior (4) - Exclua da Lista as pessoas com idade inferior a 18 anos. E exiba a quantidade da lista antes e depois da exclusão (Não reescreva o código do item 01).
+# Aproveitando a questão anterior (4) - Exclua da Lista as pessoas com idade inferior a 18 anos. E exiba a quantidade da lista antes e depois da exclusão (Não reescreva o código do item 01).
   
-#Aproveitando - o seu código já escrito na questão (4) e na questão (5) - Consulte se o objeto Jessica existe na Lista e exiba a sua idade.
+# Aproveitando - o seu código já escrito na questão (4) e na questão (5) - Consulte se o objeto Jessica existe na Lista e exiba a sua idade.
 
-  #Nome     #Idade
-- Leandro   -21
-- Jessica   -18  
+ # Nome     # Idade
+- Leandro    - 21
+- Jessica    - 18  
 
-#Exercício 7
+# Exercício 7
 Considerando os conceitos de Orientação a Objetos, crie uma classe Pai de nome Funcionário com os seguintes atributos(nome, idade e salário) e mais três classes Filhas (Gerente, Supervisor e Vendedor). Na Classe Funcionário deve existir um método de nome bonificação que retorna o salário, nas classes Filhas, deve existir o mesmo método bonificação por[em com as seguintes regras:
   
 - Para Gerente, o método bonificação deve retornar o salário + 10000.00;
